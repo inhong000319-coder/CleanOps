@@ -1,0 +1,39 @@
+/* 워크스페이스 공통 레이아웃 */
+
+.workspace {
+  display: flex;
+  flex: 1;
+  min-height: calc(100vh - 56px);
+}
+
+.sidebar {
+  width: 220px;
+  min-width: 220px;
+  background: #fff;
+  border-right: 1px solid #e8e8e8;
+  padding: 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebarSection {
+  margin-bottom: 8px;
+}
+
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 4px 12px;
+  margin: 0 0 4px 0;
+}
+
+.content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  background: #f5f6fa;
+}
